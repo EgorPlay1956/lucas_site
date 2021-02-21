@@ -1,0 +1,103 @@
+
+* {
+  background-color:black;
+  color:white;
+  
+ }
+ 
+ nav {
+	 height:70px;
+     
+ }
+ 
+ articie {
+	     position:relative;
+	     height:900px;
+         width:1000px;
+         float:left;
+		 font-size:200pt;
+ }
+ 
+ b {
+	 font-size:140%;
+	 color:FFFF00;
+ }
+ 
+ 
+ footer {
+	 height:150px;
+	 float:left ;
+	  
+ }	 
+	
+div.page_menu{
+	position:absolute;
+	  top:45px;
+	  left:605px;
+	   font-size:150%;
+	 
+}
+	
+  div.header  {
+	  position:absolute;
+	  right:25px;
+      top:15px;	
+       font-size:200%;
+	   
+  }
+  
+  div.leftcol{
+	  position:absolute;
+	  top:45px;
+	  left:25px;
+	   
+  }
+  
+    .fig {
+	  text-align:center;
+      margin-top:20px;
+      margin-bottom:10px;
+	}
+  
+  p {
+	   font-size:110%;
+	  
+  }
+  
+  a:hover{
+	color:yellow;  
+	  
+  }
+  div.ptredf{
+	  margin:20px;
+	  
+  }
+  
+  div.olki{
+	   margin:40px;
+       margin-left:170;		
+  }
+
+ .info{
+	position:relative;
+	left:20px;	
+	 
+ }
+ 
+
+ a { 
+    text-decoration: none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ 
