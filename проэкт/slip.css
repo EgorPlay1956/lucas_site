@@ -1,0 +1,216 @@
+
+* {
+  background-color:black;
+  color:white;
+  
+ }
+ 
+ nav {
+	 height:70px;
+     
+ }
+ 
+ articie {
+	     position:relative;
+	     height:900px;
+         width:1000px;
+         float:left;
+		 font-size:200pt;
+ }
+ 
+ b {
+	 font-size:140%;
+	 color:FFFF00;
+ }
+ 
+ 
+ footer {
+	 height:150px;
+	 float:left ;
+	  
+ }	 
+	
+div.page_menu{
+	position:absolute;
+	  top:45px;
+	  left:570px;
+	   font-size:150%;
+	 
+}
+	
+  div.header  {
+	  text-align:center;
+      margin-top:20px;
+      margin-bottom:10px;
+	    font-size:200%;
+  }
+  
+  div.leftcol{
+	  position:absolute;
+	  top:45px;
+	  left:25px;
+	   
+  }
+  
+    .fig {
+	  text-align:center;
+      margin-top:20px;
+      margin-bottom:10px;
+	}
+  
+  p {
+	   font-size:110%;
+	  
+  }
+  
+  a:hover{
+	color:yellow;  
+	  
+  }
+  div.ptredf{
+	  margin:20px;
+	  
+  }
+  
+  div.olki{
+	   margin:40px;
+       margin-left:170;		
+  }
+
+ .info{
+	position:relative;
+	left:20px;	
+	 
+ }
+ 
+
+ a { 
+    text-decoration: none;
+ }
+
+
+ .container{
+	 
+	 width:980px;
+	 margin:0 auto;
+	 
+	 
+ }
+        
+
+      .menu-main {
+         list-style: none;
+         margin: 15px 0 5px;
+         padding: 25px 0 5px;
+         text-align: center;
+      }
+
+      .menu-main li {
+		 margin:10px 0;
+         display: inline-block;
+      }
+
+      .menu-main li:after {
+         content: "|";
+         color:yellow;
+         display: inline-block;
+         vertical-align: top;
+      }
+
+      .menu-main li:last-child:after {
+         //content: none;
+      }
+
+      .menu-main a {
+         text-decoration: none;
+         font-family: 'Ubuntu Condensed', sans-serif;
+         position: relative;
+         padding-bottom: 20px;
+         margin: 0 34px 0 30px;
+         font-size: 17px;
+         text-transform: uppercase;
+         display: inline-block;
+         transition: color .2s;
+      }
+
+      .menu-main a,
+      .menu-main a:visited {
+         color: yellow;
+      }
+
+      .menu-main a.current,
+      .menu-main a:hover {
+         color: yellow;
+      }
+
+      .menu-main a:before,
+      .menu-main a:after {
+         content: "";
+         position: absolute;
+         height: 4px;
+         top: auto;
+         right: 50%;
+         bottom: -5px;
+         left: 50%;
+         background:yellow;
+         transition: .8s;
+      }
+
+      .menu-main a:hover:before,
+      .menu-main .current:before {
+         left: 0;
+      }
+
+      .menu-main a:hover:after,
+      .menu-main .current:after {
+         right: 0;
+      }
+
+      @media (max-width:550px) {
+         .menu-main {
+            padding-top: 0
+         }
+
+         .menu-main li {
+            display: block;
+         }
+
+         .menu-main li:after {
+            content: none;
+         }
+
+         .menu-main a {
+            padding: 25px 0 20px;
+            margin: 0 30px;
+         }
+      }
+   
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
