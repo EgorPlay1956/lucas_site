@@ -39,11 +39,10 @@ div.page_menu{
 }
 	
   div.header  {
-	  position:absolute;
-	  right:25px;
-      top:15px;	
-       font-size:200%;
-	   
+	  text-align:center;
+      margin-top:20px;
+      margin-bottom:10px;
+	    font-size:200%;
   }
   
   div.leftcol{
@@ -90,7 +89,13 @@ div.page_menu{
  }
 
 
- 
+ .container{
+	 
+	 width:980px;
+	 margin:0 auto;
+	 
+	 
+ }
         
 
       .menu-main {
@@ -101,6 +106,7 @@ div.page_menu{
       }
 
       .menu-main li {
+		 margin:10px 0;
          display: inline-block;
       }
 
@@ -112,13 +118,12 @@ div.page_menu{
       }
 
       .menu-main li:last-child:after {
-         content: none;
+         //content: none;
       }
 
       .menu-main a {
          text-decoration: none;
          font-family: 'Ubuntu Condensed', sans-serif;
-         letter-spacing: 2px;
          position: relative;
          padding-bottom: 20px;
          margin: 0 34px 0 30px;
@@ -179,13 +184,50 @@ div.page_menu{
             margin: 0 30px;
          }
       }
-   
+  
+  #slides{
+  position: relative;
+  height: 350px;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.showing{
+  opacity: 1;
+  z-index: 2;
+}
+
+
+ 
+ 
 
 
 
 
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
